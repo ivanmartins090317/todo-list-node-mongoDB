@@ -2,11 +2,19 @@
   "name": "to-do-list",
   "version": "1.0.0",
   "description": "lista no node",
+<<<<<<< HEAD
   "homepage": "https://github.com/ivanmartins090317/todo-list-node-mongoDB/blob/master/package.json",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "build",
+=======
+  "homepage": "https://github.com/ivanmartins090317/todo-list-node-mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "build",
+>>>>>>> e4aa6423131d1bdb9d6393b2d8bfdd7f72e455e5
     "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "author": "Ivan",
