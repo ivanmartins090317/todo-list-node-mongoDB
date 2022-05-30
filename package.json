@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : 'build',
+    "build" : "build",
     "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "author": "Ivan",
