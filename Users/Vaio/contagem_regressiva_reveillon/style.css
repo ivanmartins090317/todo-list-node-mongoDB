@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.santos.sp.gov.br/static/files_www/image_legacy/RONALDO%20ANDRADE_0517.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-top: 20%;
+  font-family: "open-sans", sans-serif;
+}
+.containerContador {
+  display: flex;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.time h2 {
+  margin: 0 0 5px;
+  font-family: " roboto", sans-serif;
+  font-size: 50px;
+}
+
+.anoNovo {
+  position: absolute;
+  z-index: -3;
+  margin-top: -15%;
+  font-size: 15rem;
+  opacity: 0.5;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 15% 105% 5%;
+    position: absolute;
+  }
+  .anoNovo {
+    font-size: 70px;
+    margin-top: -45%;
+    margin-left: -7%;
+    padding: 5px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.2);
+    border-radius: 12px;
+    border: 1px solid #fff;
+  }
+  .time h2 {
+    font-size: 20px;
+  }
+  .time {
+    margin-right: -4%;
+    margin-top: 40px;
+    padding: 9px;
+    /* text-align: center; */
+    font-size: 20px;
+  }
+  .glassForm {
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    backdrop-filter: blur(16px) saturate(30%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    background-color: rgba(17, 25, 40, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    z-index: -10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5%;
+    padding: 5px;
+  }
+}
